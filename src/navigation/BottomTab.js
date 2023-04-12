@@ -1,0 +1,14 @@
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import HomeAcc from "../user/Home-acc";
+import Account from "../user/Account";
+import AddNew from "../user/AddNew";
+import Category from "../user/Category";
+import Icon from "react-native-vector-icons/MaterialIcons";
+import infoUser from "../user/info/infoUser";
+import editUserInfo from "../user/info/editUserInfo";
+import userHKD from "../user/info/userHKD";
+import editUserHKD from "../user/info/editUserHKD";
+import userDoanhNghiep from "../user/info/userDoanhNghiep";
+import editUserDN from "../user/info/editUserDN";
